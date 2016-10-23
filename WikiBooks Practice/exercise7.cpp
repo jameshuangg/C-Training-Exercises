@@ -1,3 +1,5 @@
+// Author: James Huang
+// 
 #include <iostream>
 
 using namespace std;
