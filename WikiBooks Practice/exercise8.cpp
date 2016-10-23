@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// Recursive function
 int recursive(int a) {
 	if (a == 0 || a == 1) {
 		return 1;
@@ -14,8 +15,22 @@ int recursive(int a) {
 }
 
 int main() {
+	// Declaraions
 	int input;
+	bool valid;
+
+	// Initializations
 	cout << "Please enter an integer: ";
-	cin >> 
+	cin >> input;
+	valid = cin.good();
+
+	// Input testing
+	if (valid) {
+		cout << "u(" << input << ") = " << recursive(input) << endl;
+	} else {
+		cerr << "The input you have entered is invalid." << endl;
+	}
+
+
 
 }
