@@ -1,0 +1,21 @@
+break 10
+break 13
+
+#corresponding to the first break point (line 10)
+command 1  
+printf "*******************\n"
+printf "initial value for k is %d\n", k
+printf "*******************\n"
+end
+
+#corresponding to the second break point (line 13)
+command 2  
+printf "*******************\n"
+printf "value for k is %d\n", k
+printf "value for a mod k is %d\n", a % k
+printf "*******************\n"
+end
+
+
+
+
