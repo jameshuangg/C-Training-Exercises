@@ -5,4 +5,4 @@ and extra exercises I have completed from the website
 https://en.wikibooks.org/wiki/C%2B%2B_Programming/Exercises/Iterations
 under the Wikibooks Exercises folder
 
-*********************** James Huang ***********************
+********************************************** James Huang **********************************************
