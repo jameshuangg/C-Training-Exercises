@@ -12,7 +12,7 @@ int convertToIntArray(int argc, char* argv[], int array[]) {
 	/* Get each string individually from command line except for 1st
 	and convert to an int */
 	for(int i = 1; i < argc; i++) {
-		// Declare intermediate holder
+		// Declare intermediate number holder
 		// Declare string digit counter
 		unsigned int number = 0;
 		int currentDigit = 0;
